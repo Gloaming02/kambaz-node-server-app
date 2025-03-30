@@ -1,0 +1,37 @@
+{
+  "name": "kambaz-node-server-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node.js HTTP Web server for the Kambaz application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gloaming02/verbose-memory.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development",
+    "CS5610"
+  ],
+  "author": "Zhengyan Hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gloaming02/verbose-memory/issues"
+  },
+  "homepage": "https://github.com/Gloaming02/verbose-memory#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "uuid": "^11.1.0"
+  }
+}
